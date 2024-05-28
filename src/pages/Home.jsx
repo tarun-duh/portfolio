@@ -24,13 +24,13 @@ const Home = () => {
       audioRef.current.play();
     } else {
       audioRef.current.pause();
-      if (audioRef.current.src == "/src/assets/pirates.mp3") {
-        console.log(audioRef.current.src);
-        audioRef.current.src = "/src/assets/sakura.mp3";
-      } else {
-        console.log(audioRef.current.src);
-        audioRef.current.src = "/src/assets/pirates.mp3";
-      }
+      // if (audioRef.current.src == "/src/assets/pirates.mp3") {
+      //   console.log(audioRef.current.src);
+      //   audioRef.current.src = "/src/assets/sakura.mp3";
+      // } else {
+      //   console.log(audioRef.current.src);
+      //   audioRef.current.src = "/src/assets/pirates.mp3";
+      // }
     }
   }, [isplaying]);
 
