@@ -17,7 +17,7 @@ const Home = () => {
   audioRef.current.volume = 0.4;
   audioRef.current.loop = true;
 
-  const [isplaying, setIsplaying] = useState(false);
+  const [isplaying, setIsplaying] = useState(true);
 
   useEffect(() => {
     if (isplaying) {
