@@ -24,6 +24,7 @@ const Home = () => {
       audioRef.current.play();
     } else {
       audioRef.current.pause();
+      console.log(audioRef.current.src);
       // if (audioRef.current.src == "/src/assets/pirates.mp3") {
       //   console.log(audioRef.current.src);
       //   audioRef.current.src = "/src/assets/sakura.mp3";
