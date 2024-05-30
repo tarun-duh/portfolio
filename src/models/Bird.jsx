@@ -27,6 +27,7 @@ const Bird = () => {
       birdRef.current.position.z += 0.01;
     }
   });
+  console.log("hey");
 
   return (
     <mesh ref={birdRef} position={[-5, 2, 1]} scale={[0.003, 0.003, 0.003]}>
