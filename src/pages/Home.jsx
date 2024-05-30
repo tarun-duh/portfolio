@@ -24,7 +24,6 @@ const Home = () => {
       audioRef.current.play();
     } else {
       audioRef.current.pause();
-      console.log(audioRef.current.src);
     }
   }, [isplaying]);
 
